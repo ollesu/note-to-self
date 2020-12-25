@@ -1,5 +1,8 @@
 # note-to-self
-Where we collect our learnings and experiments on all things tech. 
+Where we collect our learnings and experiments on all things tech.
+
+
+Check wiki [here](https://github.com/ollesu/note-to-self/wiki). 
 
 
 ## Infrastructure
@@ -14,7 +17,7 @@ In traditionally mutable infrastructure, changes are applied incrementally on to
 
 **In immutable architecture, an entirely new image is deployed in the place of an old one and containers are not modified in their lifecycle.**
 
-### Declarative configuration and self-healing**
+### Declarative configuration and self-healing
 
 The declarative config describes the **desired state** of your application (unlike imperative configuration, which describes actions). Cool fact: Kubernetes continuously makes sure the current state matches the desired state (i.e. restarting failing containers, killing containers that do not respond to user-defined healthchecks). 
 
