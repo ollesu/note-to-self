@@ -3,4 +3,4 @@
 # exit when any command fails
 set -e
 
-uuidgen >> file.txt
+uuidgen >> gat/file.txt
