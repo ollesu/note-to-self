@@ -3,7 +3,8 @@ name: GAT Pull Request
 on:
   pull_request:
     paths:
-      - '/gat/**'
+      - .github/workflows/gat-**.yml
+      - 'gat/**'
 jobs:
   test:
     name: Pull Request Job
