@@ -1,0 +1,13 @@
+name: GAT Push
+
+on:
+  push:
+    paths:
+      - '/gat/**'
+jobs:
+  test:
+    name: Push Job
+    runs-on: ubuntu-latest
+    steps:
+      - name: Push OK step
+        run: echo Push OK!
