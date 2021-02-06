@@ -4,7 +4,7 @@ on:
   pull_request:
     paths:
       - .github/workflows/gat-**.yml
-      - 'gat/**'
+      - 'github-actions/yes/**'
 jobs:
   test:
     name: Pull Request Job
