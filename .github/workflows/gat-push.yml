@@ -3,7 +3,8 @@ name: GAT Push
 on:
   push:
     paths:
-      - '/gat/**'
+      - .github/workflows/gat-**.yml
+      - 'gat/**'
 jobs:
   test:
     name: Push Job
